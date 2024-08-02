@@ -217,7 +217,7 @@ opacity: 1;
     }
 
     .divPromocode{
-
+            background-attachment:scroll;       
         background-position: center center;
         
     }
