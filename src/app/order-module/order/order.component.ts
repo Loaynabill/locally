@@ -23,11 +23,11 @@ export class OrderComponent {
     this.orderForm = new FormGroup({
       firstname: new FormControl('', [
         Validators.required,
-        Validators.pattern('^[A-Za-z]'),
+        Validators.pattern('^[A-Za-z]+$'),
       ]),
       lastname: new FormControl('', [
         Validators.required,
-        Validators.pattern('^[A-Za-z]'),
+        Validators.pattern('^[A-Za-z]+$'),
       ]),
       email: new FormControl('', [
         Validators.required,
@@ -41,7 +41,7 @@ export class OrderComponent {
         ]),
         city: new FormControl('', [
           Validators.required,
-          Validators.pattern('[A-Za-z]'),
+          Validators.pattern('[A-Za-z]+$'),
         ]),
         street: new FormControl('', [
           Validators.required,
