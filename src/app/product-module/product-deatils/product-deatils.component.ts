@@ -183,6 +183,7 @@ export class ProductDeatilsComponent implements OnInit {
 this.api.postreview(review,prdid,rate).subscribe((res)=>{
 })
 formreviwies.reset()
+this.getreview()
 
   }
 
@@ -191,7 +192,7 @@ formreviwies.reset()
     this.reviewlist=res;
     
     })
-    this.getreview()
+  
   }
 
   changeRating(rate:number){
