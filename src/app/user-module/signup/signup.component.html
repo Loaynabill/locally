@@ -8,7 +8,7 @@
                     <div class="my-4">
                         <label class="d-block mb-1" for="username">user name</label>
                         <input name="userName" id="username" type="text" #userName="ngModel" ngModel required
-                            placeholder="enter your email">
+                            placeholder="enter your name">
                         <div class="mt-1" *ngIf="userName.invalid && userName.touched">
                             <p class="red" *ngIf="userName.errors?.['required']">please enter your name</p>
                         </div>

@@ -262,7 +262,7 @@ background-color: white !important;
         opacity: 1;
       }
       to {
-        right: -50%;
+        right: -80%;
         opacity: 0;
         display: none !important;
        
