@@ -216,6 +216,12 @@ opacity: 1;
     .topAnimateforsmall{
         animation: tobottom 1.5s ease-in-out 0s 1 both;
     }
+
+    .divPromocode{
+
+        background-position: center center;
+        
+    }
     @keyframes tobottom {
         from{
             top: -15rem;
