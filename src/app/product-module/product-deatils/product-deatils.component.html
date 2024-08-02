@@ -328,7 +328,7 @@
                                 </div>
                                 <div> <label for="name" class="d-block mb-3">your name <span
                                             class="red">&#8727;</span></label>
-                                    <input #username="ngModel" pattern="^[a-z]+$" required ngModel class="w-100"
+                                    <input #username="ngModel" pattern="[A-Za-z]" required ngModel class="w-100"
                                         type="text" id="name" name="username">
                                     <div class="mt-2" *ngIf="username.invalid && username.touched">
                                         <p *ngIf="username.errors?.['required']" class="red">please write your name</p>
